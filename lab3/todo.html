@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo list</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: 0;
+        }
+
+        body{
+            background-color: #ecefec;
+        }
+
+        .container {
+            position: absolute;
+            /* left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%); */
+            background-color: #fafafa;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            /* width: 460px; */
+            /* height: 600px; */
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            
+        }
+
+        h1.name {
+            margin: 12px 26%;
+            text-align: start;
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+
+        h1.header {
+            margin-left: 10%;
+            padding: 10px 0;
+            color: rgb(163, 163, 163);
+            font-family: sans-serif;
+            font-weight: lighter;
+        }
+
+        .header {
+            background-color: rgb(34,34,34);
+        }
+
+        .add-element {
+            margin: 12px 25%;
+            width: 50%;
+        }
+
+        input {
+            padding: 6px 4px;
+            width: 70%;
+        }
+
+        button {
+            margin-left: 5px;
+            padding: 7px 14px;
+            background-color: #0d4585;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .element-list {
+            margin: 12px 25%;
+            width: 50%;
+        }
+
+        #holder{
+            overflow: auto;
+            height: 460px;
+        }
+
+        .trash{
+            cursor: pointer;
+            width: 20px;
+            margin: auto 10px auto auto;
+        }
+
+        .task{
+            margin-top: 15px;
+            font-size: 18px;
+            font-family: sans-serif;
+        }
+
+        .checkbox{
+            width: 30px;
+            cursor: pointer;
+            margin: 20px 5px 20px 10px;
+        }
+
+        .content{
+            display: flex;
+            justify-content: center;
+            margin-top: 2px;
+            border: black 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"><h1 class="header">ToDo List </h1></div>
+    <div class="container">
+        <h1 class="name">ToDo List</h1>
+        <div class="add-element">
+            <input type="text" id="add" placeholder="New task">
+            <button id="btn">Add</button>
+        </div>
+        <div class="element-list" id="holder"> </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
