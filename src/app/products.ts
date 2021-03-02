@@ -9,7 +9,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71enijH9gUL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/81PYqU0kGjL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/81Ni3Amj7YL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 2,
@@ -20,7 +23,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71Bih8dqq0L._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71EVBJVMSoL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/61cVhaXf0cL._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 3,
@@ -29,7 +35,10 @@ export const products = [
     description: 'HyperX Mechanical Switches rated for 80 million keystrokes. Ultra-compact, portable design with detachable cable. Advanced customization with HyperX Ngenuity software.',
     url: 'https://www.amazon.com/dp/B07YMHGP86/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B07YMHGP86&pd_rd_w=riUbi&pf_rd_p=cbc856ed-1371-4f23-b89d-d3fb30edf66d&pd_rd_wg=rR5Z1&pf_rd_r=00TFATJ2Q0TNNTJMA0KC&pd_rd_r=2aa27f85-7883-449b-a7a3-55a312e8a029&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExM0gwNjhROU5BVDZaJmVuY3J5cHRlZElkPUEwOTgwMDExM1NFUzNCTzNHTjdOSCZlbmNyeXB0ZWRBZElkPUEwMTA1MTQwM0k2VVA5OURZWVE0UyZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=',
     image: 'https://images-na.ssl-images-amazon.com/images/I/61b%2B3QeNq-L._AC_SL1428_.jpg',
-    rating: '3.png'
+    rating: '3.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 4,
@@ -40,7 +49,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81zKcC5wJ6L._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/913qQiDRZQL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71iGJlR9S5L._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 5,
@@ -51,7 +63,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71zny7BTRlL._AC_SL1500_.jpg',
     // image2: 'https://images-na.ssl-images-amazon.com/images/I/71%2BoSLK5SIL._AC_SL1500_.jpg',
     // image3: 'https://images-na.ssl-images-amazon.com/images/I/71bhWgQK-cL._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 6,
@@ -62,7 +77,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81JlB89ti6L._AC_SL1500_.jpg',
     // image2: 'https://images-na.ssl-images-amazon.com/images/I/71p6jNz7f6L._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/813CZneBNaL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 7,
@@ -73,7 +91,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/61RWbWU5xaL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71OX1L%2BrvbL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71hcd1bEjLL._AC_SL1500_.jpg',
-    rating: '3.png'
+    rating: '3.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 8,
@@ -84,7 +105,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81oORaahKZL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71tKAIpgr3L._AC_SL1500_.jpg',
     image3: '',
-    rating: '3.png'
+    rating: '3.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 9,
@@ -95,7 +119,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81SGb5l%2BlZL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/91zyHoys2jL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71oxyKvOTbL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 10,
@@ -106,6 +133,219 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71TVED6KepL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/715C44xr6DL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71c-znekUaL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
+  {
+    id: 11,
+    name: 'Billy Summers',
+    price: 23.99,
+    description: 'From legendary storyteller and #1 bestseller Stephen King, whose “restless imagination is a power that cannot be contained,” (The New York Times Book Review) comes a thrilling new novel about a good guy in a bad job.',
+    url: 'https://www.amazon.com/Billy-Summers-Stephen-King/dp/1982173610/ref=sr_1_2?dchild=1&keywords=Stephen+King&qid=1614716548&sr=8-2',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/819oPfyCkmL.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
+  },
+  {
+    id: 12,
+    name: 'The Institute: A Novel',
+    price: 14.99,
+    description: 'From #1 New York Times bestselling author Stephen King, the most riveting and unforgettable story of kids confronting evil since It. “This is King at his best” (The St. Louis Post-Dispatch).',
+    url: 'https://www.amazon.com/Institute-Novel-Stephen-King/dp/1982110589/ref=pd_sbs_2?pd_rd_w=CXgq2&pf_rd_p=5e0f7f8d-f321-4a3e-bdac-3142fcd848d7&pf_rd_r=PS6RCNEBHNRG1NS70XES&pd_rd_r=69ab8186-bb87-42c6-b41b-fe6da4311fb6&pd_rd_wg=iNfKy&pd_rd_i=1982110589&psc=1',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/817Qp5l-XDL.jpg',
+    image2: 'https://images-na.ssl-images-amazon.com/images/I/811h3LcXxTL.jpg',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
+  },
+  {
+    id: 13,
+    name: 'Insomnia',
+    price: 12.99,
+    description: 'A #1 national bestseller—“A yarn so packed with suspense, romance, literary reference, fascinating miscellaneous knowledge, and heart that only Stephen King could have written it. Marvelous—that is, full of marvels” (Booklist).',
+    url: 'https://www.amazon.com/Insomnia-Stephen-King/dp/1501144227/ref=pd_sim_7?pd_rd_w=zKWj1&pf_rd_p=5dadc1ab-1aea-4988-b62f-4dbe559e6cca&pf_rd_r=4J476Q7T33702GB37S6A&pd_rd_r=b99d4fd0-3efd-4413-b389-1bde68039c99&pd_rd_wg=shuOk&pd_rd_i=1501144227&psc=1',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51Tk-HnLgJL.jpg',
+    image2: 'https://images-na.ssl-images-amazon.com/images/I/51vOKtzdsZL.jpg',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
+  },
+  {
+    id: 14,
+    name: 'Pet Sematary',
+    price: 11.99,
+    description: 'Now a major motion picture! Stephen King’s #1 New York Times bestseller is a “wild, powerful, disturbing” (The Washington Post Book World) classic about evil that exists far beyond the grave—among King’s most iconic and frightening novels.',
+    url: 'https://www.amazon.com/Pet-Sematary-Stephen-King/dp/0743412281/ref=bmx_5?pd_rd_w=q8zCe&pf_rd_p=9e42592e-5816-4d9d-8232-41e9635bb789&pf_rd_r=HVXARJGJWD78MVVA4EWG&pd_rd_r=aec9b847-ec0a-4f58-882d-c319a070fa29&pd_rd_wg=18qZk&pd_rd_i=0743412281&psc=1',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/71+TwxaiHoL.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
+  },
+  {
+    id: 15,
+    name: 'It: A Novel',
+    price: 9.99,
+    description: 'Stephen King’s terrifying, classic #1 New York Times bestseller, “a landmark in American literature” (Chicago Sun-Times)—about seven adults who return to their hometown to confront a nightmare they had first stumbled on as teenagers…an evil without a name: It.\n',
+    url: 'https://www.amazon.com/Novel-Stephen-King/dp/1982127791/ref=pd_sim_2?pd_rd_w=rOK8r&pf_rd_p=5dadc1ab-1aea-4988-b62f-4dbe559e6cca&pf_rd_r=75FBQ232XYZ2NKA7542X&pd_rd_r=1c5ccb0a-e530-46df-af1f-d1ab7c2bb312&pd_rd_wg=pNhAJ&pd_rd_i=1982127791&psc=1',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/61zG02r3qCL.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
+  },
+  {
+    id: 16,
+    name: 'LEGO Technic Rescue Hovercraft',
+    price: 28.99,
+    description: 'Give kids who love rescue vehicle toys a special treat with this awesome hovercraft toy. It’s filled with authentic details, making it perfect for role-play adventures',
+    url: 'https://www.amazon.com/LEGO-Technic-Hovercraft-Building-Occasion/dp/B08NFB6L1P?ref_=ast_sto_dp',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/91P-xnIuRLL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
+  },
+  {
+    id: 17,
+    name: 'LEGO Disney Raya and The Heart Palace',
+    price: 16.99,
+    description: 'Surprise a great kid with this different and unique LEGO Disney Raya and the Heart Palace (43181) set. Packed with features and accessories, this fun set inspires imaginative role play',
+    url: 'https://www.amazon.com/LEGO-Imaginative-Building-Adventures-Characters/dp/B08NFCBTDZ?ref_=ast_sto_dp',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81dtBSIQdoL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
+  },
+  {
+    id: 18,
+    name: 'LEGO NINJAGO Legacy Jay’s Electro Mech',
+    price: 28.99,
+    description: 'LEGO NINJAGO Jay’s Electro Mech (71740) helps kids learn how to build before they enjoy fun battles with a posable mech toy and ninja car',
+    url: 'https://www.amazon.com/LEGO-Featuring-Collectible-Minifigures-Imaginative/dp/B08NFD4XC8?ref_=ast_sto_dp',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81SMmUVtJmL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
+  },
+  {
+    id: 19,
+    name: 'LEGO Star Wars Resistance X-Wing',
+    price: 26.59,
+    description: 'Give younger children a great first experience of LEGO Star Wars with this Resistance X-wing (75297) construction toy, featuring a starter brick chassis for a quick build so the action starts fast',
+    url: 'https://www.amazon.com/LEGO-Resistance-Building-Starfighter-Featuring/dp/B08NFF66Q2?ref_=ast_sto_dp',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81aZs5XH-hL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
+  },
+  {
+    id: 20,
+    name: 'LEGO Marvel Avengers Iron Man vs. Thanos',
+    price: 26.59,
+    description: 'LEGO Marvel Avengers Iron Man vs. Thanos (76170) is an iconic superhero construction toy designed to develop the imagination, dexterity and building confidence of youngsters aged 4 and up',
+    url: 'https://www.amazon.com/LEGO-Collectible-Superhero-Featuring-Minifigures/dp/B08NFBH2K1?ref_=ast_sto_dp',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/81Xiw5tyRjL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
+  },
+  {
+    id: 21,
+    name: 'Spalding NBA Street Outdoor Basketball',
+    price: 19.88,
+    description: 'Performance: Durable outdoor rubber cover. Superior control: Deep channel design for easy handles. Official size: Size 7, 29.5”',
+    url: 'https://www.amazon.com/dp/B0009VELG4/ref=s9_acsd_al_bw_c2_x_2_i?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-6&pf_rd_r=40CR4DE2EA2F9RDGN56J&pf_rd_t=101&pf_rd_p=8f721d90-56a9-43a2-8b5b-11346bd361f8&pf_rd_i=3396541',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/91PlxEj64%2BL._AC_SL1500_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
+  },
+  {
+    id: 22,
+    name: 'Under Armour Men\'s Rival Fleece Pants',
+    price: 25.99,
+    description: 'Ultra soft, mid weight cotton blend fleece with brushed interior for extra warmth',
+    url: 'https://www.amazon.com/Under-Armour-Rival-Fleece-Lichen/dp/B07YXNP2P3/ref=pd_vtp_5?pd_rd_w=bk9Yj&pf_rd_p=96226b5f-2d9a-439b-be45-97603787c682&pf_rd_r=8W5N202HF18DT5FHF5MW&pd_rd_r=a72ade61-0a59-452c-89fe-bf8045ebc2a1&pd_rd_wg=GyiXb&pd_rd_i=B077XNLYHX&psc=1',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51XRzfNt9IL._AC_UX679_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
+  },
+  {
+    id: 23,
+    name: 'Nike Air Jordan 1 Mid Banned',
+    price: 159.59,
+    description: 'Color: Black Gym Red White',
+    url: 'https://www.amazon.com/deal/82a408ce?ref_=Oct_s9_apbd_odotd_hd_bw_bEFav_4_82a408ce&pf_rd_r=40CR4DE2EA2F9RDGN56J&pf_rd_p=df6eca9b-1d87-5a33-85f0-88903be3627a&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=3396541',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/61lLS%2BYwKtL._AC_UY695_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
+  },
+  {
+    id: 24,
+    name: 'Under Armour Men\'s Rival Fleece Hoodie',
+    price: 124.59,
+    description: 'Ultra soft, mid weight cotton blend fleece with brushed interior for extra warmth',
+    url: 'https://www.amazon.com/Under-Armour-Rival-Fleece-Hoodie/dp/B07YXMZL69?ref_=Oct_s9_apbd_omg_hd_bw_bEFav&pf_rd_r=40CR4DE2EA2F9RDGN56J&pf_rd_p=692baf6d-b65a-5d56-9f05-5f9db04431fb&pf_rd_s=merchandised-search-10&pf_rd_t=BROWSE&pf_rd_i=3396541',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51OLbgsq6ZL._AC_UX679_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
+  },
+  {
+    id: 25,
+    name: 'Under Armour Men\'s Hockey Compression Leggings',
+    price: 39,
+    description: 'The technology behind Under Armour\'s diverse product assortment for men, women and youth is complex, but the program for reaping the benefits is simple: wear HeatGear when it\'s hot, ColdGear when it\'s cold, and AllSeasonGear between the extremes.',
+    url: 'https://www.amazon.com/Under-Armour-Compression-Leggings-X-Large/dp/B081FWGRL7?ref_=Oct_DLandingS_D_82a408ce_61&smid=ATVPDKIKX0DER',
+    image: 'https://images-na.ssl-images-amazon.com/images/I/51ocUXCo1lL._AC_UX679_.jpg',
+    image2: '',
+    image3: '',
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
+  }
 ];
